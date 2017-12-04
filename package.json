@@ -1,0 +1,22 @@
+{
+  "name": "random-pairs",
+  "version": "1.0.0",
+  "description": "0.0.0",
+  "main": "lib/src/index.js",
+  "typings": "lib/src/index.d.ts",
+  "scripts": {
+    "build": "tsc --outDir lib --rootDir .",
+    "test": "node lib/src/test/test.js"
+  },
+  "author": "greyepoxy",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/greyepoxy/random-pairs"
+  },
+  "devDependencies": {
+    "@types/node": "^8.0.54",
+    "typescript": "^2.6.2"
+  },
+  "dependencies": {}
+}
